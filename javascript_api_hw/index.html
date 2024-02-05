@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Include your CSS stylesheets and other meta tags as needed -->
+    <link rel="stylesheet" href="main.css">
+    <script src="index.js"></script>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kimono Gallery</title>
+</head>
+
+<body>
+    <section class="bg-dark text-center text-sm-start">
+        <div class="container mt-10 p-5">
+            <div class="row-md col-sm">
+                <h3 class="p-5 text-light justify-content-center">Explore a gallery of beautifully hand-crafted kimono styles from Japan.</h3>
+            </div>
+
+            <div id="gallery" class="text-center"></div>
+        </div>
+
+        <!-- Bootstrap JS and your custom JavaScript code -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    </section>
+
+    <!-- Modal -->
+    <div class="modal fade" id="artDetailsModal" tabindex="-1" aria-labelledby="artDetailsModalTitle" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="artDetailsModalTitle"></h5>
+                    <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+                </div>
+                <div class="modal-body" id="artDetailsModalBody"></div>
+                <div class="modal-footer">
+                    <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> -->
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+          
